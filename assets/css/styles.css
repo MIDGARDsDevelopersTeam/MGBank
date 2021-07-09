@@ -1,0 +1,43 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #094295;
+}
+
+.box {
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  border-radius: 25px;
+  margin-top: 50px;
+  margin-left: 35px;
+}
+
+.box-content {
+  width: 95%;
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 25px;
+  transition: all .3s;
+  margin-top: 50px;
+}
+
+button {
+  border-radius: 10px;
+}
+
+input {
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid var(--bs-gray);
+  outline: 0 !important;
+}
+
+.table-hover > tbody > tr:hover {
+  --bs-table-accent-bg: rgba(255,255,255,0.075);
+  color: var(--bs-gray);
+}
+
