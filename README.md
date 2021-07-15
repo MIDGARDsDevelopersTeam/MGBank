@@ -1,0 +1,2 @@
+# MGBank
+MIDGARDs Bank
